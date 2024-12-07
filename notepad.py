@@ -20,7 +20,7 @@ def new():
 
 
 # ========================= New Window Code  ================================
-def new_window():
+def new_window(): #===== new window =======
         root = tk.Tk()
         root.geometry('500x500')
 

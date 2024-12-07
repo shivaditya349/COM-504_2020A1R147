@@ -25,7 +25,7 @@ def new_window():
         root.geometry('500x500')
 
 
-        menubar = Menu(root)
+        menubar = Menu(root) #=====menubar=====
 
         file = Menu(menubar,tearoff = 0)
         file.add_command(label="New",command=new)
